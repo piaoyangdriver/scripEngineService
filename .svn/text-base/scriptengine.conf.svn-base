@@ -1,0 +1,97 @@
+##########this is a configure file of ScriptEngine################
+
+
+##########Global Items####################
+
+LOG_PATH = scriptengine.log
+##########Device List####################
+
+[DEV(BEG)]
+  NAME = "AndroidAgent"
+  ID = Android
+  IPADDR = 127.0.0.1
+  IPPORT = 8904
+  [CMD(BEG)]
+    OPENTOOL a  10000
+    CLOSETOOL a  1000
+    Relay a  100
+    SnapShoot a  1000
+    Key a b  100
+    Press a  100
+    Touch a b c  100
+    Tap a b  100
+    Trackball a b  100
+    TypeString a  100
+    Flip a  100
+    Wake a  100
+  [CMD(END)]
+[DEV(END)]
+
+
+[DEV(BEG)]
+  NAME = "PicMatchAgent"
+  ID = PICMAT
+  IPADDR = 127.0.0.1
+  IPPORT = 8899
+  [CMD(BEG)]
+    OPENTOOL a  100
+    CLOSETOOL a  100
+    PICMATCH target source x y w h  100
+  [CMD(END)]
+[DEV(END)]
+
+
+##########Macro Items####################
+
+[MACRO(BEG)]
+  SCRIPT_ROOT=C:\temp\WorkSpaceForBookViewer\TestSuit_Android\
+  SCRIPTDIR=C:\temp\WorkSpaceForBookViewer\TestSuit_Android\TestSuite_BookViewer\TestSuit_E7\
+  CALENDA=300 520
+  DAY=240 700
+  WEEK=450 700
+  MONTH=450 700
+  IMAGE_ROOT = D:\MBT\ResultIMG
+  STD_IMAGE_ROOT = D:\MBT\apitest
+
+   ###demo###
+
+  MusicUnlimited = 288 1155
+  SignInView = 638 704
+  SignIn_ID = 331 329
+  SingIn_Password = 350 466
+  SingIn = 561 330
+  UserID = checkclientsoft+np+us@gmail.com
+  Password = sonycity16f
+  #Preview = 256 641
+  DragFrom = 546 1064
+  DragTo = 546 541
+  ReleaseAlbum1 = 116 698
+  ReleaseAlbum2 = 284 698
+  AddAlbum1_Music1 = 765 460
+  AddSongtoPlayList = 343 666
+  AvailableOffline = 98 437
+  AddSongtoPlayList_OK = 581 498 
+  AddAlbum2_Music1 = 765 460
+  AddAlbum2_Music2 = 765 526
+  AddPlayList1 = 259 720
+  Menu = 758 79
+  SwitchtoOfflineMode = 650 217
+  OfflineMode_PlayList1 = 271 261
+  OfflineMode_Music1 = 370 529
+  Music_Next = 514 1083
+  SwitchtoOnlineMode =  650 141
+  
+  
+
+
+
+  #Music_PlayandPause = 227 677
+  #Music_Next = 353 677
+  #Music_Former =121 677
+  #Settings = 206 819
+  #SignOut = 281 512
+  #SignOut_OK = 338 581
+  #SignOut_OK2 = 233 553
+  #SignOut_DontShow = 256 526
+  #SignOut_OK3 = 338 549
+[MACRO(END)]

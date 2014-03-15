@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mbt/!svn/ver/256/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/bean
+END
+CommandBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/mbt/!svn/ver/252/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/bean/CommandBean.java
+END
+ExecuteStatementBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mbt/!svn/ver/256/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/bean/ExecuteStatementBean.java
+END
+ExecuteTestCaseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/mbt/!svn/ver/252/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/bean/ExecuteTestCaseBean.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/mbt/!svn/ver/256/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/scriptengine/thread
+END
+ReceiveQueueProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mbt/!svn/ver/252/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/scriptengine/thread/ReceiveQueueProducer.java
+END
+SendQueueConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/mbt/!svn/ver/252/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/scriptengine/thread/SendQueueConsumer.java
+END
+ReceiveQueueConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mbt/!svn/ver/256/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/scriptengine/thread/ReceiveQueueConsumer.java
+END
+NotifyThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mbt/!svn/ver/252/ScriptEngineService/src/cn/com/sony/csc/sqa/mbt/scriptengine/thread/NotifyThread.java
+END
